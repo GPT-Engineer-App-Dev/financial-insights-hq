@@ -5,7 +5,7 @@ import ArticleCard from "../components/ArticleCard";
 
 const Index = () => {
   return (
-    <Box>
+    <Box bg="#fff1e5">
       <Navbar />
       <Container maxW="container.xl" py={8}>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
